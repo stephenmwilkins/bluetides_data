@@ -1,0 +1,84 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: z, datatype: float64}
+# - {name: log10SFR, unit: dex(solMass / yr), datatype: float64}
+# - {name: log10phi, unit: dex(1 / (dex Mpc3)), datatype: float64}
+# meta: !!omap
+# - {x: log10SFR}
+# - {y: log10phi}
+# - {name: Bluetides}
+# - redshifts: [8.0, 9.0, 10.0, 11.0, 12.0, 13.0]
+# - references: [2016MNRAS.455.2778F, 2017MNRAS.469.2517W]
+# schema: astropy-2.0
+z log10SFR log10phi
+13.0 nan -0.4
+13.0 nan -0.2
+13.0 nan 0.0
+13.0 nan 0.2
+13.0 nan 0.4
+13.0 nan 0.6
+13.0 nan 0.8
+13.0 nan 1.0
+13.0 nan 1.2
+13.0 nan 1.4
+13.0 nan 1.6
+13.0 nan 1.8
+13.0 nan 2.0
+13.0 nan 2.2
+13.0 nan 2.4
+13.0 nan 2.6
+12.0 nan -3.93
+12.0 nan -4.21
+12.0 nan -4.54
+12.0 nan -4.92
+12.0 nan -5.28
+12.0 nan -5.67
+12.0 nan -6.04
+12.0 nan -6.4
+11.0 nan -3.5
+11.0 nan -3.77
+11.0 nan -4.07
+11.0 nan -4.42
+11.0 nan -4.72
+11.0 nan -5.13
+11.0 nan -5.49
+11.0 nan -5.82
+11.0 nan -6.23
+10.0 nan -3.11
+10.0 nan -3.36
+10.0 nan -3.62
+10.0 nan -3.93
+10.0 nan -4.22
+10.0 nan -4.54
+10.0 nan -4.89
+10.0 nan -5.21
+10.0 nan -5.63
+10.0 nan -5.98
+10.0 nan -6.32
+9.0 nan -2.8
+9.0 nan -3.02
+9.0 nan -3.26
+9.0 nan -3.52
+9.0 nan -3.78
+9.0 nan -4.06
+9.0 nan -4.39
+9.0 nan -4.69
+9.0 nan -5.05
+9.0 nan -5.41
+9.0 nan -5.77
+9.0 nan -6.21
+8.0 nan -2.51
+8.0 nan -2.71
+8.0 nan -2.93
+8.0 nan -3.16
+8.0 nan -3.39
+8.0 nan -3.64
+8.0 nan -3.9
+8.0 nan -4.14
+8.0 nan -4.44
+8.0 nan -4.79
+8.0 nan -5.12
+8.0 nan -5.44
+8.0 nan -5.91
+8.0 nan -6.34
